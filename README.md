@@ -20,13 +20,14 @@ yarn add react prismjs @nju33/react-markdown
 ```jsx
 import { Markdown } from '@nju33/react-markdown'
 
-;<Markdown contents={markdownContents} />
+// ...
+return <Markdown contents={markdownContents} />
 ```
 
 If you put a code, additionally import a prismjs theme too.
 
 ```jsx
-import { Markdown } from '@nju33/react-markdown'
+import 'path/to/your-favorite-theme.css'
 ```
 
 If you want to use your favorite element, you can use it.
@@ -35,12 +36,15 @@ For instance, If you would like to use my favorite Heading component pass to the
 ```jsx
 import { MarkdownRenderer, Markdown } from '@nju33/react-markdown'
 
-;<MarkdownRenderer
-  value={{
-    Heading: MyFavoriteHeading
-  }}>
-  <Markdown contents={markdownContents} />
-</MarkdownRenderer>
+// ...
+return (
+  <MarkdownRenderer
+    value={{
+      Heading: MyFavoriteHeading
+    }}>
+    <Markdown contents={markdownContents} />
+  </MarkdownRenderer>
+)
 ```
 
 ## Contributors ✨
