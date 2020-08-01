@@ -18,7 +18,7 @@
 
 Ƭ **DeleteFC**: *NamedExoticComponent‹React.PropsWithChildren‹object››*
 
-*Defined in [src/renderer-components/delete.tsx:3](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer-components/delete.tsx#L3)*
+*Defined in [src/renderer-components/delete.tsx:3](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/delete.tsx#L3)*
 
 ## Variables
 
@@ -30,4 +30,4 @@
   return <del className="md__delete">{children}</del>
 })
 
-*Defined in [src/renderer-components/delete.tsx:5](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer-components/delete.tsx#L5)*
+*Defined in [src/renderer-components/delete.tsx:5](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/delete.tsx#L5)*

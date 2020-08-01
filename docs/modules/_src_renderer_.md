@@ -33,7 +33,7 @@
 
 Ƭ **ComponentNames**: *keyof Components*
 
-*Defined in [src/renderer.tsx:76](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L76)*
+*Defined in [src/renderer.tsx:76](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L76)*
 
 ## Variables
 
@@ -64,7 +64,7 @@
   ThematicBreak
 })
 
-*Defined in [src/renderer.tsx:78](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L78)*
+*Defined in [src/renderer.tsx:78](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L78)*
 
 ## Functions
 
@@ -72,7 +72,7 @@
 
 ▸ **MarkdownRenderer**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/renderer.tsx:109](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L109)*
+*Defined in [src/renderer.tsx:109](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L109)*
 
 **Parameters:**
 
@@ -91,7 +91,7 @@ ___
 
 ▸ **isParentElementNode**(`a`: any): *a is MarkdownParentElementNodes<MarkdownElementNodes>*
 
-*Defined in [src/renderer.tsx:117](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L117)*
+*Defined in [src/renderer.tsx:117](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L117)*
 
 **Parameters:**
 

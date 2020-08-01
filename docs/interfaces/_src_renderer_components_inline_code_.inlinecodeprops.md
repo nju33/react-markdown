@@ -18,4 +18,4 @@
 
 • **value**: *string*
 
-*Defined in [src/renderer-components/inline-code.tsx:4](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer-components/inline-code.tsx#L4)*
+*Defined in [src/renderer-components/inline-code.tsx:4](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/inline-code.tsx#L4)*

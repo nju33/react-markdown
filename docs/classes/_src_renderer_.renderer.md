@@ -32,7 +32,7 @@
 
 \+ **new Renderer**(`components`: [Components](../interfaces/_src_renderer_.components.md)): *[Renderer](_src_renderer_.renderer.md)*
 
-*Defined in [src/renderer.tsx:129](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L129)*
+*Defined in [src/renderer.tsx:129](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L129)*
 
 **Parameters:**
 
@@ -48,7 +48,7 @@ Name | Type |
 
 • **components**: *[Components](../interfaces/_src_renderer_.components.md)*
 
-*Defined in [src/renderer.tsx:131](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L131)*
+*Defined in [src/renderer.tsx:131](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L131)*
 
 ___
 
@@ -56,7 +56,7 @@ ___
 
 • **htmlDepth**: *number* = 0
 
-*Defined in [src/renderer.tsx:128](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L128)*
+*Defined in [src/renderer.tsx:128](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L128)*
 
 ___
 
@@ -64,7 +64,7 @@ ___
 
 • **htmlStack**: *string[]* = []
 
-*Defined in [src/renderer.tsx:129](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L129)*
+*Defined in [src/renderer.tsx:129](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L129)*
 
 ## Methods
 
@@ -72,7 +72,7 @@ ___
 
 ▸ **render**(`node`: [MarkdownElementNodes](../modules/_src_interfaces_.md#markdownelementnodes)): *React.ReactNode*
 
-*Defined in [src/renderer.tsx:133](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer.tsx#L133)*
+*Defined in [src/renderer.tsx:133](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L133)*
 
 **Parameters:**
 

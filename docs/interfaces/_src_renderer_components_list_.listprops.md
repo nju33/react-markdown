@@ -18,4 +18,4 @@
 
 • **ordered**: *boolean*
 
-*Defined in [src/renderer-components/list.tsx:4](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer-components/list.tsx#L4)*
+*Defined in [src/renderer-components/list.tsx:4](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/list.tsx#L4)*

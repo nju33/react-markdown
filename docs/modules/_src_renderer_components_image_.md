@@ -22,7 +22,7 @@
 
 Ƭ **ImageFC**: *NamedExoticComponent‹[ImageProps](../interfaces/_src_renderer_components_image_.imageprops.md)›*
 
-*Defined in [src/renderer-components/image.tsx:7](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer-components/image.tsx#L7)*
+*Defined in [src/renderer-components/image.tsx:7](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/image.tsx#L7)*
 
 ## Variables
 
@@ -34,4 +34,4 @@
   return <img className="md__image" src={url} style={{ maxWidth: '100%' }} />
 })
 
-*Defined in [src/renderer-components/image.tsx:9](https://github.com/nju33/react-markdown/blob/7fe748e/src/renderer-components/image.tsx#L9)*
+*Defined in [src/renderer-components/image.tsx:9](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/image.tsx#L9)*
