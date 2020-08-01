@@ -12,7 +12,7 @@
 ## Install
 
 ```bash
-yarn add react @nju33/react-markdown
+yarn add react prismjs @nju33/react-markdown
 ```
 
 ## Example
@@ -20,7 +20,7 @@ yarn add react @nju33/react-markdown
 ```jsx
 import { Markdown } from '@nju33/react-markdown'
 
-<Markdown contents={markdownContents} />
+;<Markdown contents={markdownContents} />
 ```
 
 If you put a code, additionally import a prismjs theme too.
@@ -35,9 +35,10 @@ For instance, If you would like to use my favorite Heading component pass to the
 ```jsx
 import { MarkdownRenderer, Markdown } from '@nju33/react-markdown'
 
-<MarkdownRenderer value={{
-  Heading: MyFavoriteHeading
-}}>
+;<MarkdownRenderer
+  value={{
+    Heading: MyFavoriteHeading
+  }}>
   <Markdown contents={markdownContents} />
 </MarkdownRenderer>
 ```
