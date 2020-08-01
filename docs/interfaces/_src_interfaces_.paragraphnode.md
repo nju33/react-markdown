@@ -24,7 +24,7 @@
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[children](_src_interfaces_.nodebase.md#optional-children)*
 
-*Defined in [src/interfaces.ts:140](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L140)*
+*Defined in [src/interfaces.ts:140](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L140)*
 
 ___
 
@@ -34,7 +34,7 @@ ___
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[position](_src_interfaces_.nodebase.md#position)*
 
-*Defined in [src/interfaces.ts:141](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L141)*
+*Defined in [src/interfaces.ts:141](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L141)*
 
 ___
 
@@ -44,4 +44,4 @@ ___
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[type](_src_interfaces_.nodebase.md#type)*
 
-*Defined in [src/interfaces.ts:142](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L142)*
+*Defined in [src/interfaces.ts:142](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L142)*

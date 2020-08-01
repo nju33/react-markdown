@@ -27,7 +27,7 @@
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[children](_src_interfaces_.nodebase.md#optional-children)*
 
-*Defined in [src/interfaces.ts:163](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L163)*
+*Defined in [src/interfaces.ts:163](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L163)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 • **ordered**: *boolean*
 
-*Defined in [src/interfaces.ts:164](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L164)*
+*Defined in [src/interfaces.ts:164](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L164)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[position](_src_interfaces_.nodebase.md#position)*
 
-*Defined in [src/interfaces.ts:165](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L165)*
+*Defined in [src/interfaces.ts:165](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L165)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **spread**: *boolean*
 
-*Defined in [src/interfaces.ts:166](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L166)*
+*Defined in [src/interfaces.ts:166](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L166)*
 
 ___
 
@@ -61,7 +61,7 @@ ___
 
 • **start**: *number*
 
-*Defined in [src/interfaces.ts:167](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L167)*
+*Defined in [src/interfaces.ts:167](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L167)*
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[type](_src_interfaces_.nodebase.md#type)*
 
-*Defined in [src/interfaces.ts:168](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L168)*
+*Defined in [src/interfaces.ts:168](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L168)*

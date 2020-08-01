@@ -22,7 +22,7 @@
 
 Ƭ **ListFC**: *NamedExoticComponent‹React.PropsWithChildren‹[ListProps](../interfaces/_src_renderer_components_list_.listprops.md)››*
 
-*Defined in [src/renderer-components/list.tsx:7](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/list.tsx#L7)*
+*Defined in [src/renderer-components/list.tsx:7](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/list.tsx#L7)*
 
 ## Variables
 
@@ -38,4 +38,4 @@
   return <ul className="md__list md__list--unordered">{children}</ul>
 })
 
-*Defined in [src/renderer-components/list.tsx:11](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/list.tsx#L11)*
+*Defined in [src/renderer-components/list.tsx:11](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/list.tsx#L11)*

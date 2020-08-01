@@ -22,7 +22,7 @@
 
 Ƭ **LinkReferenceFC**: *NamedExoticComponent‹React.PropsWithChildren‹[LinkReferenceProps](../interfaces/_src_renderer_components_link_reference_.linkreferenceprops.md)››*
 
-*Defined in [src/renderer-components/link-reference.tsx:9](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/link-reference.tsx#L9)*
+*Defined in [src/renderer-components/link-reference.tsx:9](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/link-reference.tsx#L9)*
 
 ## Variables
 
@@ -76,4 +76,4 @@
   )
 })
 
-*Defined in [src/renderer-components/link-reference.tsx:13](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/link-reference.tsx#L13)*
+*Defined in [src/renderer-components/link-reference.tsx:13](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/link-reference.tsx#L13)*

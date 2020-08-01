@@ -23,7 +23,7 @@
 
 Ƭ **TableFC**: *NamedExoticComponent‹[TableProps](../interfaces/_src_renderer_components_table_.tableprops.md)›*
 
-*Defined in [src/renderer-components/table.tsx:9](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/table.tsx#L9)*
+*Defined in [src/renderer-components/table.tsx:9](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/table.tsx#L9)*
 
 ## Variables
 
@@ -48,7 +48,7 @@
   )
 })
 
-*Defined in [src/renderer-components/table.tsx:19](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/table.tsx#L19)*
+*Defined in [src/renderer-components/table.tsx:19](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/table.tsx#L19)*
 
 ___
 
@@ -62,4 +62,4 @@ ___
   align: []
 })
 
-*Defined in [src/renderer-components/table.tsx:11](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/table.tsx#L11)*
+*Defined in [src/renderer-components/table.tsx:11](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/table.tsx#L11)*

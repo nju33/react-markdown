@@ -39,7 +39,7 @@
 
 • **Blockquote**: *[BlockquoteFC](../modules/_src_renderer_components_blockquote_.md#blockquotefc)*
 
-*Defined in [src/renderer.tsx:52](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L52)*
+*Defined in [src/renderer.tsx:52](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L52)*
 
 ___
 
@@ -47,7 +47,7 @@ ___
 
 • **Break**: *[BreakFC](../modules/_src_renderer_components_break_.md#breakfc)*
 
-*Defined in [src/renderer.tsx:53](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L53)*
+*Defined in [src/renderer.tsx:53](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L53)*
 
 ___
 
@@ -55,7 +55,7 @@ ___
 
 • **Code**: *[CodeFC](../modules/_src_renderer_components_code_.md#codefc)*
 
-*Defined in [src/renderer.tsx:54](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L54)*
+*Defined in [src/renderer.tsx:54](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L54)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 • **Delete**: *[DeleteFC](../modules/_src_renderer_components_delete_.md#deletefc)*
 
-*Defined in [src/renderer.tsx:55](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L55)*
+*Defined in [src/renderer.tsx:55](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L55)*
 
 ___
 
@@ -71,7 +71,7 @@ ___
 
 • **Emphasis**: *[EmphasisFC](../modules/_src_renderer_components_emphasis_.md#emphasisfc)*
 
-*Defined in [src/renderer.tsx:56](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L56)*
+*Defined in [src/renderer.tsx:56](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L56)*
 
 ___
 
@@ -79,7 +79,7 @@ ___
 
 • **Heading**: *[HeadingFC](../modules/_src_renderer_components_heading_.md#headingfc)*
 
-*Defined in [src/renderer.tsx:57](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L57)*
+*Defined in [src/renderer.tsx:57](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L57)*
 
 ___
 
@@ -87,7 +87,7 @@ ___
 
 • **Html**: *[HtmlFC](../modules/_src_renderer_components_html_.md#htmlfc)*
 
-*Defined in [src/renderer.tsx:58](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L58)*
+*Defined in [src/renderer.tsx:58](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L58)*
 
 ___
 
@@ -95,7 +95,7 @@ ___
 
 • **Image**: *[ImageFC](../modules/_src_renderer_components_image_.md#imagefc)*
 
-*Defined in [src/renderer.tsx:59](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L59)*
+*Defined in [src/renderer.tsx:59](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L59)*
 
 ___
 
@@ -103,7 +103,7 @@ ___
 
 • **ImageReference**: *[ImageReferenceFC](../modules/_src_renderer_components_image_reference_.md#imagereferencefc)*
 
-*Defined in [src/renderer.tsx:60](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L60)*
+*Defined in [src/renderer.tsx:60](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L60)*
 
 ___
 
@@ -111,7 +111,7 @@ ___
 
 • **InlineCode**: *[InlineCodeFC](../modules/_src_renderer_components_inline_code_.md#inlinecodefc)*
 
-*Defined in [src/renderer.tsx:61](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L61)*
+*Defined in [src/renderer.tsx:61](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L61)*
 
 ___
 
@@ -119,7 +119,7 @@ ___
 
 • **Link**: *[LinkFC](../modules/_src_renderer_components_link_.md#linkfc)*
 
-*Defined in [src/renderer.tsx:62](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L62)*
+*Defined in [src/renderer.tsx:62](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L62)*
 
 ___
 
@@ -127,7 +127,7 @@ ___
 
 • **LinkReference**: *[LinkReferenceFC](../modules/_src_renderer_components_link_reference_.md#linkreferencefc)*
 
-*Defined in [src/renderer.tsx:63](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L63)*
+*Defined in [src/renderer.tsx:63](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L63)*
 
 ___
 
@@ -135,7 +135,7 @@ ___
 
 • **List**: *[ListFC](../modules/_src_renderer_components_list_.md#listfc)*
 
-*Defined in [src/renderer.tsx:64](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L64)*
+*Defined in [src/renderer.tsx:64](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L64)*
 
 ___
 
@@ -143,7 +143,7 @@ ___
 
 • **ListItem**: *[ListItemFC](../modules/_src_renderer_components_list_item_.md#listitemfc)*
 
-*Defined in [src/renderer.tsx:65](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L65)*
+*Defined in [src/renderer.tsx:65](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L65)*
 
 ___
 
@@ -151,7 +151,7 @@ ___
 
 • **Paragraph**: *[ParagraphFC](../modules/_src_renderer_components_paragraph_.md#paragraphfc)*
 
-*Defined in [src/renderer.tsx:66](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L66)*
+*Defined in [src/renderer.tsx:66](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L66)*
 
 ___
 
@@ -159,7 +159,7 @@ ___
 
 • **Root**: *[RootFC](../modules/_src_renderer_components_root_.md#rootfc)*
 
-*Defined in [src/renderer.tsx:67](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L67)*
+*Defined in [src/renderer.tsx:67](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L67)*
 
 ___
 
@@ -167,7 +167,7 @@ ___
 
 • **Strong**: *[StrongFC](../modules/_src_renderer_components_strong_.md#strongfc)*
 
-*Defined in [src/renderer.tsx:68](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L68)*
+*Defined in [src/renderer.tsx:68](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L68)*
 
 ___
 
@@ -175,7 +175,7 @@ ___
 
 • **Table**: *[TableFC](../modules/_src_renderer_components_table_.md#tablefc)*
 
-*Defined in [src/renderer.tsx:69](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L69)*
+*Defined in [src/renderer.tsx:69](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L69)*
 
 ___
 
@@ -183,7 +183,7 @@ ___
 
 • **TableCell**: *[TableCellFC](../modules/_src_renderer_components_table_cell_.md#tablecellfc)*
 
-*Defined in [src/renderer.tsx:70](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L70)*
+*Defined in [src/renderer.tsx:70](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L70)*
 
 ___
 
@@ -191,7 +191,7 @@ ___
 
 • **TableRow**: *[TableRowFC](../modules/_src_renderer_components_table_row_.md#tablerowfc)*
 
-*Defined in [src/renderer.tsx:71](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L71)*
+*Defined in [src/renderer.tsx:71](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L71)*
 
 ___
 
@@ -199,7 +199,7 @@ ___
 
 • **Text**: *[TextFC](../modules/_src_renderer_components_text_.md#textfc)*
 
-*Defined in [src/renderer.tsx:72](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L72)*
+*Defined in [src/renderer.tsx:72](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L72)*
 
 ___
 
@@ -207,4 +207,4 @@ ___
 
 • **ThematicBreak**: *[ThematicBreakFC](../modules/_src_renderer_components_thematic_break_.md#thematicbreakfc)*
 
-*Defined in [src/renderer.tsx:73](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer.tsx#L73)*
+*Defined in [src/renderer.tsx:73](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L73)*

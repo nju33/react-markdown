@@ -19,7 +19,7 @@
 
 Ƭ **TableRowFC**: *NamedExoticComponent‹React.PropsWithChildren‹object››*
 
-*Defined in [src/renderer-components/table-row.tsx:4](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/table-row.tsx#L4)*
+*Defined in [src/renderer-components/table-row.tsx:4](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/table-row.tsx#L4)*
 
 ## Variables
 
@@ -55,7 +55,7 @@
   )
 })
 
-*Defined in [src/renderer-components/table-row.tsx:12](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/table-row.tsx#L12)*
+*Defined in [src/renderer-components/table-row.tsx:12](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/table-row.tsx#L12)*
 
 ___
 
@@ -67,4 +67,4 @@ ___
   align: undefined
 })
 
-*Defined in [src/renderer-components/table-row.tsx:6](https://github.com/nju33/react-markdown/blob/b4ce032/src/renderer-components/table-row.tsx#L6)*
+*Defined in [src/renderer-components/table-row.tsx:6](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/table-row.tsx#L6)*

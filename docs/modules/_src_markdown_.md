@@ -25,7 +25,7 @@
 
 • **Markdown**: *NamedExoticComponent‹[MarkdownProps](../interfaces/_src_markdown_.markdownprops.md)›* = React.memo(_Markdown)
 
-*Defined in [src/markdown.tsx:163](https://github.com/nju33/react-markdown/blob/b4ce032/src/markdown.tsx#L163)*
+*Defined in [src/markdown.tsx:163](https://github.com/nju33/react-markdown/blob/6bc1522/src/markdown.tsx#L163)*
 
 ## Functions
 
@@ -33,7 +33,7 @@
 
 ▸ **_Markdown**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/markdown.tsx:141](https://github.com/nju33/react-markdown/blob/b4ce032/src/markdown.tsx#L141)*
+*Defined in [src/markdown.tsx:141](https://github.com/nju33/react-markdown/blob/6bc1522/src/markdown.tsx#L141)*
 
 **Parameters:**
 
@@ -52,7 +52,7 @@ ___
 
 ▸ **collectDefinitions**(`node`: [NodeBase](../interfaces/_src_interfaces_.nodebase.md)): *[NodeBase](../interfaces/_src_interfaces_.nodebase.md)[]*
 
-*Defined in [src/markdown.tsx:20](https://github.com/nju33/react-markdown/blob/b4ce032/src/markdown.tsx#L20)*
+*Defined in [src/markdown.tsx:20](https://github.com/nju33/react-markdown/blob/6bc1522/src/markdown.tsx#L20)*
 
 **Parameters:**
 
@@ -68,7 +68,7 @@ ___
 
 ▸ **collectLinkReference**(`node`: [NodeBase](../interfaces/_src_interfaces_.nodebase.md)): *[NodeBase](../interfaces/_src_interfaces_.nodebase.md)[]*
 
-*Defined in [src/markdown.tsx:40](https://github.com/nju33/react-markdown/blob/b4ce032/src/markdown.tsx#L40)*
+*Defined in [src/markdown.tsx:40](https://github.com/nju33/react-markdown/blob/6bc1522/src/markdown.tsx#L40)*
 
 **Parameters:**
 
@@ -84,7 +84,7 @@ ___
 
 ▸ **useMarkdown**(`contents`: string, `isServer`: boolean): *[[MarkdownNode](../interfaces/_src_interfaces_.markdownnode.md), [DefinitionNodes](_src_interfaces_.md#definitionnodes), [LinkReferenceNode](../interfaces/_src_interfaces_.linkreferencenode.md)[], [Components](../interfaces/_src_renderer_.components.md)]*
 
-*Defined in [src/markdown.tsx:60](https://github.com/nju33/react-markdown/blob/b4ce032/src/markdown.tsx#L60)*
+*Defined in [src/markdown.tsx:60](https://github.com/nju33/react-markdown/blob/6bc1522/src/markdown.tsx#L60)*
 
 **Parameters:**
 

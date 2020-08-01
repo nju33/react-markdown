@@ -25,7 +25,7 @@
 
 • **alt**: *string*
 
-*Defined in [src/interfaces.ts:41](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L41)*
+*Defined in [src/interfaces.ts:41](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L41)*
 
 ___
 
@@ -35,7 +35,7 @@ ___
 
 *Inherited from [NodeBase](_src_interfaces_.nodebase.md).[children](_src_interfaces_.nodebase.md#optional-children)*
 
-*Defined in [src/interfaces.ts:16](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L16)*
+*Defined in [src/interfaces.ts:16](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L16)*
 
 ___
 
@@ -45,7 +45,7 @@ ___
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[position](_src_interfaces_.nodebase.md#position)*
 
-*Defined in [src/interfaces.ts:42](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L42)*
+*Defined in [src/interfaces.ts:42](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L42)*
 
 ___
 
@@ -53,7 +53,7 @@ ___
 
 • **title**: *null | string*
 
-*Defined in [src/interfaces.ts:43](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L43)*
+*Defined in [src/interfaces.ts:43](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L43)*
 
 ___
 
@@ -63,7 +63,7 @@ ___
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[type](_src_interfaces_.nodebase.md#type)*
 
-*Defined in [src/interfaces.ts:44](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L44)*
+*Defined in [src/interfaces.ts:44](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L44)*
 
 ___
 
@@ -71,4 +71,4 @@ ___
 
 • **url**: *string*
 
-*Defined in [src/interfaces.ts:45](https://github.com/nju33/react-markdown/blob/b4ce032/src/interfaces.ts#L45)*
+*Defined in [src/interfaces.ts:45](https://github.com/nju33/react-markdown/blob/6bc1522/src/interfaces.ts#L45)*
