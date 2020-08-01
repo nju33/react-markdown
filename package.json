@@ -1,9 +1,9 @@
 {
-  "name": "@nju33/TEMPLATE_REACT_COMPONENT",
+  "name": "@nju33/react-markdown",
   "version": "0.0.0",
   "repository": {
     "type": "git",
-    "url": "ssh://git@github.com/nju33/TEMPLATE_REACT_COMPONENT.git"
+    "url": "ssh://git@github.com/nju33/react-markdown.git"
   },
   "license": "MIT",
   "author": "nju33 <nju33.ki@gmail.com>",
@@ -31,9 +31,6 @@
     "update": "yarn version --minor",
     "upgrade": "yarn version --upgrade"
   },
-  "resolutions": {
-    "@types/react": "^16.8.0"
-  },
   "dependencies": {},
   "devDependencies": {
     "@commitlint/cli": "^9.1.1",
@@ -49,6 +46,7 @@
     "@types/eslint": "^7.2.0",
     "@types/faker": "4.1.12",
     "@types/jest": "^26.0.7",
+    "@types/prismjs": "^1.16.1",
     "@types/react": "16.9.43",
     "@types/react-dom": "16.9.8",
     "@types/react-helmet": "6.0.0",
@@ -82,6 +80,7 @@
     "lint-staged": "^10.2.11",
     "microbundle": "0.12.3",
     "prettier": "2.0.5",
+    "prismjs": "^1.20.0",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.1.0",
@@ -102,7 +101,8 @@
     "webdriverio": "6.3.5"
   },
   "peerDependencies": {
-    "react": "^16.8.0"
+    "react": "^16.8.0",
+    "prismjs": "^1.0.0"
   },
   "publishConfig": {
     "access": "public",

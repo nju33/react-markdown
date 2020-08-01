@@ -1,4 +1,4 @@
-# Template React
+# React Markdown
 
 [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
@@ -12,12 +12,34 @@
 ## Install
 
 ```bash
-yarn add react
+yarn add react @nju33/react-markdown
 ```
 
 ## Example
 
 ```jsx
+import { Markdown } from '@nju33/react-markdown'
+
+<Markdown contents={markdownContents} />
+```
+
+If you put a code, additionally import a prismjs theme too.
+
+```jsx
+import { Markdown } from '@nju33/react-markdown'
+```
+
+If you want to use your favorite element, you can use it.
+For instance, If you would like to use my favorite Heading component pass to the `MarkdownRenderer`.
+
+```jsx
+import { MarkdownRenderer, Markdown } from '@nju33/react-markdown'
+
+<MarkdownRenderer value={{
+  Heading: MyFavoriteHeading
+}}>
+  <Markdown contents={markdownContents} />
+</MarkdownRenderer>
 ```
 
 ## Contributors ✨
