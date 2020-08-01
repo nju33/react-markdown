@@ -1,6 +1,6 @@
 {
   "name": "@nju33/react-markdown",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/nju33/react-markdown.git"
@@ -101,8 +101,8 @@
     "webdriverio": "6.3.5"
   },
   "peerDependencies": {
-    "react": "^16.8.0",
-    "prismjs": "^1.0.0"
+    "prismjs": "^1.0.0",
+    "react": "^16.8.0"
   },
   "publishConfig": {
     "access": "public",
