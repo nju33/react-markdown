@@ -1,0 +1,32 @@
+{
+  "v": 2,
+  "globalParameters": {},
+  "kindParameters": {
+    "Markdown": {
+      "fileName": 1520,
+      "framework": "react"
+    }
+  },
+  "stories": {
+    "markdown--from-contents": {
+      "id": "markdown--from-contents",
+      "name": "From Contents",
+      "kind": "Markdown",
+      "story": "From Contents",
+      "parameters": {
+        "__id": "markdown--from-contents",
+        "__isArgsStory": false
+      }
+    },
+    "markdown--from-pre-processed": {
+      "id": "markdown--from-pre-processed",
+      "name": "From Pre Processed",
+      "kind": "Markdown",
+      "story": "From Pre Processed",
+      "parameters": {
+        "__id": "markdown--from-pre-processed",
+        "__isArgsStory": false
+      }
+    }
+  }
+}
