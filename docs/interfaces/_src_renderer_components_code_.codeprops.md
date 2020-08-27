@@ -19,7 +19,7 @@
 
 • **lang**: *string | null*
 
-*Defined in [src/renderer-components/code.tsx:5](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/code.tsx#L5)*
+*Defined in [src/renderer-components/code.tsx:5](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/code.tsx#L5)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **value**: *string*
 
-*Defined in [src/renderer-components/code.tsx:6](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/code.tsx#L6)*
+*Defined in [src/renderer-components/code.tsx:6](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/code.tsx#L6)*

@@ -68,7 +68,7 @@
 
 • **children**? : *[NodeBase](_src_interfaces_.nodebase.md)[]*
 
-*Defined in [src/interfaces.ts:16](https://github.com/nju33/react-markdown/blob/5327386/src/interfaces.ts#L16)*
+*Defined in [src/interfaces.ts:16](https://github.com/nju33/react-markdown/blob/3861cd2/src/interfaces.ts#L16)*
 
 ___
 
@@ -76,7 +76,7 @@ ___
 
 • **position**: *[NodePosition](_src_interfaces_.nodeposition.md)*
 
-*Defined in [src/interfaces.ts:17](https://github.com/nju33/react-markdown/blob/5327386/src/interfaces.ts#L17)*
+*Defined in [src/interfaces.ts:17](https://github.com/nju33/react-markdown/blob/3861cd2/src/interfaces.ts#L17)*
 
 ___
 
@@ -84,4 +84,4 @@ ___
 
 • **type**: *string*
 
-*Defined in [src/interfaces.ts:18](https://github.com/nju33/react-markdown/blob/5327386/src/interfaces.ts#L18)*
+*Defined in [src/interfaces.ts:18](https://github.com/nju33/react-markdown/blob/3861cd2/src/interfaces.ts#L18)*

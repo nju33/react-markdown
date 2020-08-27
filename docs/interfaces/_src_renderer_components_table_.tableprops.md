@@ -20,7 +20,7 @@
 
 • **align**: *Array‹"right" | "left" | null | undefined›*
 
-*Defined in [src/renderer-components/table.tsx:4](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/table.tsx#L4)*
+*Defined in [src/renderer-components/table.tsx:4](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/table.tsx#L4)*
 
 ___
 
@@ -28,7 +28,7 @@ ___
 
 • **body**: *ReactElement[]*
 
-*Defined in [src/renderer-components/table.tsx:5](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/table.tsx#L5)*
+*Defined in [src/renderer-components/table.tsx:5](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/table.tsx#L5)*
 
 ___
 
@@ -36,4 +36,4 @@ ___
 
 • **head**: *ReactElement*
 
-*Defined in [src/renderer-components/table.tsx:6](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/table.tsx#L6)*
+*Defined in [src/renderer-components/table.tsx:6](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/table.tsx#L6)*

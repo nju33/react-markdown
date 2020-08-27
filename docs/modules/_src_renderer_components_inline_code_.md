@@ -22,7 +22,7 @@
 
 Ƭ **InlineCodeFC**: *NamedExoticComponent‹[InlineCodeProps](../interfaces/_src_renderer_components_inline_code_.inlinecodeprops.md)›*
 
-*Defined in [src/renderer-components/inline-code.tsx:7](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/inline-code.tsx#L7)*
+*Defined in [src/renderer-components/inline-code.tsx:7](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/inline-code.tsx#L7)*
 
 ## Variables
 
@@ -35,4 +35,4 @@
   return <code className="md__inline-code">{value}</code>
 })
 
-*Defined in [src/renderer-components/inline-code.tsx:9](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/inline-code.tsx#L9)*
+*Defined in [src/renderer-components/inline-code.tsx:9](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/inline-code.tsx#L9)*

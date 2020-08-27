@@ -22,7 +22,7 @@
 
 Ƭ **RootFC**: *NamedExoticComponent‹React.PropsWithChildren‹[RootProps](../interfaces/_src_renderer_components_root_.rootprops.md)››*
 
-*Defined in [src/renderer-components/root.tsx:6](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/root.tsx#L6)*
+*Defined in [src/renderer-components/root.tsx:6](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/root.tsx#L6)*
 
 ## Variables
 
@@ -34,4 +34,4 @@
   return <>{children}</>
 })
 
-*Defined in [src/renderer-components/root.tsx:10](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/root.tsx#L10)*
+*Defined in [src/renderer-components/root.tsx:10](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/root.tsx#L10)*

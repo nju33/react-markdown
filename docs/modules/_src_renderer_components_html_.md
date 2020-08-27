@@ -22,7 +22,7 @@
 
 Ƭ **HtmlFC**: *NamedExoticComponent‹[HtmlProps](../interfaces/_src_renderer_components_html_.htmlprops.md)›*
 
-*Defined in [src/renderer-components/html.tsx:7](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/html.tsx#L7)*
+*Defined in [src/renderer-components/html.tsx:7](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/html.tsx#L7)*
 
 ## Variables
 
@@ -36,4 +36,4 @@
   )
 })
 
-*Defined in [src/renderer-components/html.tsx:9](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/html.tsx#L9)*
+*Defined in [src/renderer-components/html.tsx:9](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/html.tsx#L9)*

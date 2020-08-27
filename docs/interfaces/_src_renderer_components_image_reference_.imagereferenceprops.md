@@ -19,7 +19,7 @@
 
 • **alt**: *string*
 
-*Defined in [src/renderer-components/image-reference.tsx:6](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/image-reference.tsx#L6)*
+*Defined in [src/renderer-components/image-reference.tsx:6](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/image-reference.tsx#L6)*
 
 ___
 
@@ -27,4 +27,4 @@ ___
 
 • **identifier**: *string*
 
-*Defined in [src/renderer-components/image-reference.tsx:7](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/image-reference.tsx#L7)*
+*Defined in [src/renderer-components/image-reference.tsx:7](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/image-reference.tsx#L7)*
