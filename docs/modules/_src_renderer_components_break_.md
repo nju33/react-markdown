@@ -18,7 +18,7 @@
 
 Ƭ **BreakFC**: *NamedExoticComponent‹object›*
 
-*Defined in [src/renderer-components/break.tsx:3](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/break.tsx#L3)*
+*Defined in [src/renderer-components/break.tsx:3](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/break.tsx#L3)*
 
 ## Variables
 
@@ -30,4 +30,4 @@
   return <br className="md__break" />
 })
 
-*Defined in [src/renderer-components/break.tsx:5](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/break.tsx#L5)*
+*Defined in [src/renderer-components/break.tsx:5](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/break.tsx#L5)*

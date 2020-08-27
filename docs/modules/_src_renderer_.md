@@ -33,7 +33,7 @@
 
 Ƭ **ComponentNames**: *keyof Components*
 
-*Defined in [src/renderer.tsx:76](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L76)*
+*Defined in [src/renderer.tsx:76](https://github.com/nju33/react-markdown/blob/5327386/src/renderer.tsx#L76)*
 
 ## Variables
 
@@ -64,7 +64,7 @@
   ThematicBreak
 })
 
-*Defined in [src/renderer.tsx:78](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L78)*
+*Defined in [src/renderer.tsx:78](https://github.com/nju33/react-markdown/blob/5327386/src/renderer.tsx#L78)*
 
 ## Functions
 
@@ -72,7 +72,7 @@
 
 ▸ **MarkdownRenderer**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/renderer.tsx:109](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L109)*
+*Defined in [src/renderer.tsx:109](https://github.com/nju33/react-markdown/blob/5327386/src/renderer.tsx#L109)*
 
 **Parameters:**
 
@@ -80,8 +80,8 @@
 
 Name | Type |
 ------ | ------ |
-`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; object &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray‹› &#124; ReactPortal‹› |
-`value` | object |
+`children` | ReactNode |
+`value` | Partial‹[Components](../interfaces/_src_renderer_.components.md)› |
 
 **Returns:** *Element‹›*
 
@@ -89,9 +89,9 @@ ___
 
 ###  isParentElementNode
 
-▸ **isParentElementNode**(`a`: any): *a is MarkdownParentElementNodes<MarkdownElementNodes>*
+▸ **isParentElementNode**(`a`: any): *a is MarkdownParentElementNodes‹MarkdownElementNodes›*
 
-*Defined in [src/renderer.tsx:117](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer.tsx#L117)*
+*Defined in [src/renderer.tsx:117](https://github.com/nju33/react-markdown/blob/5327386/src/renderer.tsx#L117)*
 
 **Parameters:**
 
@@ -99,4 +99,4 @@ Name | Type |
 ------ | ------ |
 `a` | any |
 
-**Returns:** *a is MarkdownParentElementNodes<MarkdownElementNodes>*
+**Returns:** *a is MarkdownParentElementNodes‹MarkdownElementNodes›*

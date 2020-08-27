@@ -22,7 +22,7 @@
 
 Ƭ **ImageReferenceFC**: *NamedExoticComponent‹[ImageReferenceProps](../interfaces/_src_renderer_components_image_reference_.imagereferenceprops.md)›*
 
-*Defined in [src/renderer-components/image-reference.tsx:10](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/image-reference.tsx#L10)*
+*Defined in [src/renderer-components/image-reference.tsx:10](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/image-reference.tsx#L10)*
 
 ## Variables
 
@@ -64,4 +64,4 @@
   )
 })
 
-*Defined in [src/renderer-components/image-reference.tsx:12](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/image-reference.tsx#L12)*
+*Defined in [src/renderer-components/image-reference.tsx:12](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/image-reference.tsx#L12)*

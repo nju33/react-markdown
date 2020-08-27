@@ -18,4 +18,4 @@
 
 • **node**: *[LinkReferenceNode](_src_interfaces_.linkreferencenode.md)*
 
-*Defined in [src/renderer-components/link-reference.tsx:6](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/link-reference.tsx#L6)*
+*Defined in [src/renderer-components/link-reference.tsx:6](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/link-reference.tsx#L6)*
