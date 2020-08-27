@@ -22,7 +22,7 @@
 
 Ƭ **CodeFC**: *NamedExoticComponent‹[CodeProps](../interfaces/_src_renderer_components_code_.codeprops.md)›*
 
-*Defined in [src/renderer-components/code.tsx:9](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/code.tsx#L9)*
+*Defined in [src/renderer-components/code.tsx:9](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/code.tsx#L9)*
 
 ## Variables
 
@@ -52,4 +52,4 @@
   )
 })
 
-*Defined in [src/renderer-components/code.tsx:11](https://github.com/nju33/react-markdown/blob/6bc1522/src/renderer-components/code.tsx#L11)*
+*Defined in [src/renderer-components/code.tsx:11](https://github.com/nju33/react-markdown/blob/5327386/src/renderer-components/code.tsx#L11)*

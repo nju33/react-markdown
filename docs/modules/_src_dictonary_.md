@@ -17,4 +17,4 @@
   linkReferences: LinkReferenceNode[]
 }>({ definitions: [], linkReferences: [] })
 
-*Defined in [src/dictonary.tsx:4](https://github.com/nju33/react-markdown/blob/6bc1522/src/dictonary.tsx#L4)*
+*Defined in [src/dictonary.tsx:4](https://github.com/nju33/react-markdown/blob/5327386/src/dictonary.tsx#L4)*

@@ -18,7 +18,7 @@
 
 ▸ **Code**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/default-renderer-components.tsx:136](https://github.com/nju33/react-markdown/blob/6bc1522/src/default-renderer-components.tsx#L136)*
+*Defined in [src/default-renderer-components.tsx:136](https://github.com/nju33/react-markdown/blob/5327386/src/default-renderer-components.tsx#L136)*
 
 **Parameters:**
 
@@ -36,7 +36,7 @@ ___
 
 ▸ **Heading**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/default-renderer-components.tsx:101](https://github.com/nju33/react-markdown/blob/6bc1522/src/default-renderer-components.tsx#L101)*
+*Defined in [src/default-renderer-components.tsx:101](https://github.com/nju33/react-markdown/blob/5327386/src/default-renderer-components.tsx#L101)*
 
 **Parameters:**
 
@@ -44,7 +44,7 @@ ___
 
 Name | Type |
 ------ | ------ |
-`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; object &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray‹› &#124; ReactPortal‹› |
+`children` | ReactNode |
 `depth` | number |
 
 **Returns:** *Element‹›*
@@ -55,7 +55,7 @@ ___
 
 ▸ **List**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/default-renderer-components.tsx:153](https://github.com/nju33/react-markdown/blob/6bc1522/src/default-renderer-components.tsx#L153)*
+*Defined in [src/default-renderer-components.tsx:153](https://github.com/nju33/react-markdown/blob/5327386/src/default-renderer-components.tsx#L153)*
 
 **Parameters:**
 
@@ -63,7 +63,7 @@ ___
 
 Name | Type |
 ------ | ------ |
-`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; object &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray‹› &#124; ReactPortal‹› |
+`children` | ReactNode |
 `ordered` | boolean |
 
 **Returns:** *Element‹›*
@@ -74,7 +74,7 @@ ___
 
 ▸ **Paragraph**(`__namedParameters`: object): *Element‹›*
 
-*Defined in [src/default-renderer-components.tsx:130](https://github.com/nju33/react-markdown/blob/6bc1522/src/default-renderer-components.tsx#L130)*
+*Defined in [src/default-renderer-components.tsx:130](https://github.com/nju33/react-markdown/blob/5327386/src/default-renderer-components.tsx#L130)*
 
 **Parameters:**
 
@@ -82,7 +82,7 @@ ___
 
 Name | Type |
 ------ | ------ |
-`children` | undefined &#124; null &#124; string &#124; number &#124; false &#124; true &#124; object &#124; ReactElement‹any, string &#124; function &#124; object› &#124; ReactNodeArray‹› &#124; ReactPortal‹› |
+`children` | ReactNode |
 
 **Returns:** *Element‹›*
 
@@ -92,7 +92,7 @@ ___
 
 ▸ **renderMarkdown**(`node`: [MarkdownElementNodes](_src_interfaces_.md#markdownelementnodes)): *React.ReactNode*
 
-*Defined in [src/default-renderer-components.tsx:5](https://github.com/nju33/react-markdown/blob/6bc1522/src/default-renderer-components.tsx#L5)*
+*Defined in [src/default-renderer-components.tsx:5](https://github.com/nju33/react-markdown/blob/5327386/src/default-renderer-components.tsx#L5)*
 
 **Parameters:**
 
