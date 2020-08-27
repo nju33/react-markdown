@@ -7,7 +7,7 @@ import {
   MarkdownNode,
   NodeBase
 } from './interfaces'
-import { Components, Renderer, renderer } from './renderer'
+import { Renderer, renderer } from './renderer'
 
 export interface MarkdownPropsWithContents {
   /**
@@ -120,7 +120,7 @@ export function process(
 export function useMarkdown(
   contents: string,
   isServer: boolean = false
-): [MarkdownNode, DefinitionNodes, LinkReferenceNode[], Components] {
+): [MarkdownNode, DefinitionNodes, LinkReferenceNode[]] {
   const [state, setState] = React.useState<{
     contents: string
     definitions: DefinitionNodes
@@ -144,8 +144,6 @@ export function useMarkdown(
     definitions: [],
     linkReferences: []
   })
-
-  const compoents = React.useContext(renderer)
 
   React.useEffect(() => {
     if (isServer) {
@@ -179,7 +177,7 @@ export function useMarkdown(
     })
   }
 
-  return [state.node, state.definitions, state.linkReferences, compoents]
+  return [state.node, state.definitions, state.linkReferences]
 }
 
 function isPropsWithContents(a: any): a is MarkdownPropsWithContents {
@@ -187,13 +185,12 @@ function isPropsWithContents(a: any): a is MarkdownPropsWithContents {
 }
 
 const _Markdown: React.FC<MarkdownProps> = (props) => {
+  const components = React.useContext(renderer)
+
   if (isPropsWithContents(props)) {
     const { contents, isServer } = props
 
-    const [node, definitions, linkReferences, components] = useMarkdown(
-      contents,
-      isServer
-    )
+    const [node, definitions, linkReferences] = useMarkdown(contents, isServer)
 
     const rendered = React.useMemo(() => {
       return new Renderer(components).render(node)
@@ -209,7 +206,6 @@ const _Markdown: React.FC<MarkdownProps> = (props) => {
   const {
     preProcessed: [node, definitions, linkReferences]
   } = props
-  const components = React.useContext(renderer)
 
   const rendered = React.useMemo(() => {
     return new Renderer(components).render(node)

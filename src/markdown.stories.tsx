@@ -1,8 +1,7 @@
 import './style.css'
 import './prism-vsc-dark-plus.css'
 import * as React from 'react'
-import { Markdown, MarkdownRenderer, process } from '.'
-import { defaults } from './renderer-components'
+import { defaults, Markdown, MarkdownRenderer, process } from '.'
 
 export default {
   title: 'Markdown'
@@ -257,6 +256,7 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
       `.trim()
 
 export const FromContents = (): React.ReactElement => {
+  console.log(defaults)
   return (
     <MarkdownRenderer value={defaults}>
       <Markdown contents={contents} />

@@ -127,8 +127,11 @@ export interface TraitRenderer {
 export class Renderer implements TraitRenderer {
   private htmlDepth = 0
   private readonly htmlStack: string[] = []
+  private readonly components: Components
 
-  constructor(private readonly components: Components) {}
+  constructor(components: Components) {
+    this.components = components
+  }
 
   render(node: MarkdownElementNodes): React.ReactNode {
     if (node.type === 'definition' || node.type === 'footnoteDefinition') {
