@@ -9,13 +9,27 @@ import {
 } from './interfaces'
 import { Components, Renderer, renderer } from './renderer'
 
-export interface MarkdownProps {
+export interface MarkdownPropsWithContents {
   /**
    * A Markdown contents
    */
   contents: string
   isServer?: boolean
 }
+
+export type ProcessedResult = [
+  MarkdownNode,
+  DefinitionNodes,
+  LinkReferenceNode[]
+]
+
+export interface MarkdownPropsWithPreProcessed {
+  preProcessed: ProcessedResult
+}
+
+export type MarkdownProps =
+  | MarkdownPropsWithContents
+  | MarkdownPropsWithPreProcessed
 
 function collectDefinitions(node: NodeBase): NodeBase[] {
   let childDefinitions: NodeBase[] = []
@@ -57,7 +71,53 @@ function collectLinkReference(node: NodeBase): NodeBase[] {
   return linkReferences
 }
 
-function useMarkdown(
+export function process(
+  contents: string,
+  options: { sync: false }
+): Promise<ProcessedResult>
+export function process(
+  contents: string,
+  options: { sync: true }
+): ProcessedResult
+// eslint-disable-next-line @typescript-eslint/promise-function-async
+export function process(
+  contents: string,
+  options: { sync: boolean }
+): ProcessedResult | Promise<ProcessedResult> {
+  const processor = remark().use((): any => {
+    return (node: any, vfile: any) => {
+      vfile.data = {
+        definitions: collectDefinitions(node),
+        linkReferences: collectLinkReference(node),
+        node
+      }
+    }
+  })
+
+  if (options.sync) {
+    const result = processor.processSync(contents)
+
+    const { definitions, linkReferences, node } = result.data as {
+      definitions: DefinitionNodes
+      linkReferences: LinkReferenceNode[]
+      node: MarkdownNode
+    }
+
+    return [node, definitions, linkReferences]
+  }
+
+  return processor.process(contents).then((result) => {
+    const { definitions, linkReferences, node } = result.data as {
+      definitions: DefinitionNodes
+      linkReferences: LinkReferenceNode[]
+      node: MarkdownNode
+    }
+
+    return [node, definitions, linkReferences]
+  })
+}
+
+export function useMarkdown(
   contents: string,
   isServer: boolean = false
 ): [MarkdownNode, DefinitionNodes, LinkReferenceNode[], Components] {
@@ -87,16 +147,6 @@ function useMarkdown(
 
   const compoents = React.useContext(renderer)
 
-  const processor = remark().use((): any => {
-    return (node: any, vfile: any) => {
-      vfile.data = {
-        definitions: collectDefinitions(node),
-        linkReferences: collectLinkReference(node),
-        node
-      }
-    }
-  })
-
   React.useEffect(() => {
     if (isServer) {
       return
@@ -108,24 +158,18 @@ function useMarkdown(
 
     // eslint-disable-next-line no-void
     void (async () => {
-      const result = await processor.process(contents)
-      const { definitions, linkReferences, node } = result.data as {
-        definitions: DefinitionNodes
-        linkReferences: LinkReferenceNode[]
-        node: MarkdownNode
-      }
+      const [node, definitions, linkReferences] = await process(contents, {
+        sync: false
+      })
 
       setState({ contents, node, definitions, linkReferences })
     })()
   }, [isServer, state.contents, contents, setState])
 
   if (isServer && state.contents !== contents) {
-    const result = processor.processSync(contents)
-    const { definitions, linkReferences, node } = result.data as {
-      definitions: DefinitionNodes
-      linkReferences: LinkReferenceNode[]
-      node: MarkdownNode
-    }
+    const [node, definitions, linkReferences] = process(contents, {
+      sync: true
+    })
 
     setState({
       contents,
@@ -138,11 +182,35 @@ function useMarkdown(
   return [state.node, state.definitions, state.linkReferences, compoents]
 }
 
-const _Markdown: React.FC<MarkdownProps> = ({ contents, isServer = false }) => {
-  const [node, definitions, linkReferences, components] = useMarkdown(
-    contents,
-    isServer
-  )
+function isPropsWithContents(a: any): a is MarkdownPropsWithContents {
+  return Object.prototype.hasOwnProperty.call(a, 'contents')
+}
+
+const _Markdown: React.FC<MarkdownProps> = (props) => {
+  if (isPropsWithContents(props)) {
+    const { contents, isServer } = props
+
+    const [node, definitions, linkReferences, components] = useMarkdown(
+      contents,
+      isServer
+    )
+
+    const rendered = React.useMemo(() => {
+      return new Renderer(components).render(node)
+    }, [node, components])
+
+    return (
+      <dictonary.Provider value={{ definitions, linkReferences }}>
+        {rendered}
+      </dictonary.Provider>
+    )
+  }
+
+  const {
+    preProcessed: [node, definitions, linkReferences]
+  } = props
+  const components = React.useContext(renderer)
+
   const rendered = React.useMemo(() => {
     return new Renderer(components).render(node)
   }, [node, components])

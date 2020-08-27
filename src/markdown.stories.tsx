@@ -1,18 +1,14 @@
 import './style.css'
 import './prism-vsc-dark-plus.css'
 import * as React from 'react'
-import { Markdown, MarkdownRenderer } from '.'
+import { Markdown, MarkdownRenderer, process } from '.'
 import { defaults } from './renderer-components'
 
 export default {
   title: 'Markdown'
 }
 
-export const TicTacToeCell = (): React.ReactElement => {
-  return (
-    <MarkdownRenderer value={defaults}>
-      <Markdown
-        contents={`
+const contents = `
 ---
 __Advertisement :)__
 
@@ -258,8 +254,22 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 ::: warning
 *here be dragons*
 :::
-      `.trim()}
-      />
+      `.trim()
+
+export const FromContents = (): React.ReactElement => {
+  return (
+    <MarkdownRenderer value={defaults}>
+      <Markdown contents={contents} />
+    </MarkdownRenderer>
+  )
+}
+
+export const FromPreProcessed = (): React.ReactElement => {
+  const preProcessed = process(contents, { sync: true })
+
+  return (
+    <MarkdownRenderer value={defaults}>
+      <Markdown preProcessed={preProcessed} />
     </MarkdownRenderer>
   )
 }

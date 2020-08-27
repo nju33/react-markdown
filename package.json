@@ -1,6 +1,6 @@
 {
   "name": "@nju33/react-markdown",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com/nju33/react-markdown.git"
@@ -21,7 +21,7 @@
     "!*.config.js"
   ],
   "scripts": {
-    "build-storybook": "build-storybook -c .storybook -o .out",
+    "build-storybook": "build-storybook",
     "ci:build": "[ \"$CI\" = 'true' ] && yarn microbundle --tsconfig tsconfig.build.json --jsx 'React.createElement' || :",
     "ci:gen-src-docs": "typedoc --plugin typedoc-plugin-markdown --out docs src",
     "ci:test": "jest --config jest.config.js --collectCoverage",
@@ -29,15 +29,19 @@
     "patch": "yarn version --patch",
     "test": "jest --config jest.config.js",
     "update": "yarn version --minor",
-    "upgrade": "yarn version --upgrade"
+    "upgrade": "yarn version --upgrade",
+    "storybook": "start-storybook -p 6006"
   },
   "dependencies": {},
   "devDependencies": {
+    "@babel/core": "^7.11.4",
     "@commitlint/cli": "9.1.2",
     "@commitlint/config-conventional": "9.1.2",
-    "@storybook/addon-actions": "6.0.19",
+    "@storybook/addon-actions": "^6.0.19",
+    "@storybook/addon-essentials": "^6.0.19",
     "@storybook/addon-knobs": "6.0.19",
-    "@storybook/react": "6.0.19",
+    "@storybook/addon-links": "^6.0.19",
+    "@storybook/react": "^6.0.19",
     "@testing-library/dom": "7.22.6",
     "@testing-library/jest-dom": "5.11.4",
     "@testing-library/react": "10.4.9",
@@ -84,6 +88,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-helmet": "6.1.0",
+    "react-is": "^16.13.1",
     "style-loader": "1.2.1",
     "stylelint": "13.6.1",
     "stylelint-config-standard": "20.0.0",
