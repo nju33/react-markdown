@@ -18,7 +18,7 @@
 
 Ƭ **EmphasisFC**: *NamedExoticComponent‹React.PropsWithChildren‹object››*
 
-*Defined in [src/renderer-components/emphasis.tsx:3](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/emphasis.tsx#L3)*
+*Defined in [src/renderer-components/emphasis.tsx:3](https://github.com/nju33/react-markdown/blob/52ced5e/src/renderer-components/emphasis.tsx#L3)*
 
 ## Variables
 
@@ -30,4 +30,4 @@
   return <em className="md__emphasis">{children}</em>
 })
 
-*Defined in [src/renderer-components/emphasis.tsx:5](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/emphasis.tsx#L5)*
+*Defined in [src/renderer-components/emphasis.tsx:5](https://github.com/nju33/react-markdown/blob/52ced5e/src/renderer-components/emphasis.tsx#L5)*

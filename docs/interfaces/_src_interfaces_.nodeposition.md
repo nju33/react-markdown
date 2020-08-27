@@ -20,7 +20,7 @@
 
 • **end**: *object*
 
-*Defined in [src/interfaces.ts:2](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L2)*
+*Defined in [src/interfaces.ts:2](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L2)*
 
 #### Type declaration:
 
@@ -36,7 +36,7 @@ ___
 
 • **indent**: *unknown[]*
 
-*Defined in [src/interfaces.ts:7](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L7)*
+*Defined in [src/interfaces.ts:7](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L7)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **start**: *object*
 
-*Defined in [src/interfaces.ts:8](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L8)*
+*Defined in [src/interfaces.ts:8](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L8)*
 
 #### Type declaration:
 

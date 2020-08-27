@@ -18,4 +18,4 @@
 
 • **preProcessed**: *[ProcessedResult](../modules/_src_markdown_.md#processedresult)*
 
-*Defined in [src/markdown.tsx:27](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L27)*
+*Defined in [src/markdown.tsx:27](https://github.com/nju33/react-markdown/blob/52ced5e/src/markdown.tsx#L27)*

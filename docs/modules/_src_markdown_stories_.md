@@ -252,7 +252,7 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 :::
       `.trim()
 
-*Defined in [src/markdown.stories.tsx:11](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.stories.tsx#L11)*
+*Defined in [src/markdown.stories.tsx:10](https://github.com/nju33/react-markdown/blob/52ced5e/src/markdown.stories.tsx#L10)*
 
 ## Functions
 
@@ -260,7 +260,7 @@ It converts "HTML", but keep intact partial entries like "xxxHTMLyyy" and so on.
 
 ▸ **FromContents**(): *ReactElement*
 
-*Defined in [src/markdown.stories.tsx:259](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.stories.tsx#L259)*
+*Defined in [src/markdown.stories.tsx:258](https://github.com/nju33/react-markdown/blob/52ced5e/src/markdown.stories.tsx#L258)*
 
 **Returns:** *ReactElement*
 
@@ -270,6 +270,6 @@ ___
 
 ▸ **FromPreProcessed**(): *ReactElement*
 
-*Defined in [src/markdown.stories.tsx:267](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.stories.tsx#L267)*
+*Defined in [src/markdown.stories.tsx:267](https://github.com/nju33/react-markdown/blob/52ced5e/src/markdown.stories.tsx#L267)*
 
 **Returns:** *ReactElement*

@@ -18,4 +18,4 @@
 
 • **depth**: *number*
 
-*Defined in [src/renderer-components/heading.tsx:4](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/heading.tsx#L4)*
+*Defined in [src/renderer-components/heading.tsx:4](https://github.com/nju33/react-markdown/blob/52ced5e/src/renderer-components/heading.tsx#L4)*

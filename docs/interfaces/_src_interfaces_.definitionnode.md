@@ -28,7 +28,7 @@
 
 *Inherited from [NodeBase](_src_interfaces_.nodebase.md).[children](_src_interfaces_.nodebase.md#optional-children)*
 
-*Defined in [src/interfaces.ts:16](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L16)*
+*Defined in [src/interfaces.ts:16](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L16)*
 
 ___
 
@@ -36,7 +36,7 @@ ___
 
 • **identifier**: *string*
 
-*Defined in [src/interfaces.ts:125](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L125)*
+*Defined in [src/interfaces.ts:125](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L125)*
 
 ___
 
@@ -44,7 +44,7 @@ ___
 
 • **label**: *string*
 
-*Defined in [src/interfaces.ts:126](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L126)*
+*Defined in [src/interfaces.ts:126](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L126)*
 
 ___
 
@@ -54,7 +54,7 @@ ___
 
 *Inherited from [NodeBase](_src_interfaces_.nodebase.md).[position](_src_interfaces_.nodebase.md#position)*
 
-*Defined in [src/interfaces.ts:17](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L17)*
+*Defined in [src/interfaces.ts:17](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L17)*
 
 ___
 
@@ -62,7 +62,7 @@ ___
 
 • **title**: *string | null*
 
-*Defined in [src/interfaces.ts:127](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L127)*
+*Defined in [src/interfaces.ts:127](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L127)*
 
 ___
 
@@ -72,7 +72,7 @@ ___
 
 *Overrides [NodeBase](_src_interfaces_.nodebase.md).[type](_src_interfaces_.nodebase.md#type)*
 
-*Defined in [src/interfaces.ts:128](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L128)*
+*Defined in [src/interfaces.ts:128](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L128)*
 
 ___
 
@@ -80,4 +80,4 @@ ___
 
 • **url**: *string | null*
 
-*Defined in [src/interfaces.ts:129](https://github.com/nju33/react-markdown/blob/3889a1e/src/interfaces.ts#L129)*
+*Defined in [src/interfaces.ts:129](https://github.com/nju33/react-markdown/blob/52ced5e/src/interfaces.ts#L129)*

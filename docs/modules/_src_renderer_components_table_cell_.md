@@ -18,7 +18,7 @@
 
 Ƭ **TableCellFC**: *NamedExoticComponent‹React.PropsWithChildren‹object››*
 
-*Defined in [src/renderer-components/table-cell.tsx:5](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/table-cell.tsx#L5)*
+*Defined in [src/renderer-components/table-cell.tsx:5](https://github.com/nju33/react-markdown/blob/52ced5e/src/renderer-components/table-cell.tsx#L5)*
 
 ## Variables
 
@@ -47,4 +47,4 @@
   return <Tag className={classNames.join(' ')}>{children}</Tag>
 })
 
-*Defined in [src/renderer-components/table-cell.tsx:9](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/table-cell.tsx#L9)*
+*Defined in [src/renderer-components/table-cell.tsx:9](https://github.com/nju33/react-markdown/blob/52ced5e/src/renderer-components/table-cell.tsx#L9)*

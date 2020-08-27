@@ -22,7 +22,7 @@
 
 • **render**: *function*
 
-*Defined in [src/renderer.tsx:124](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer.tsx#L124)*
+*Defined in [src/renderer.tsx:124](https://github.com/nju33/react-markdown/blob/52ced5e/src/renderer.tsx#L124)*
 
 #### Type declaration:
 
