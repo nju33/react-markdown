@@ -18,4 +18,4 @@
 
 • **url**: *string*
 
-*Defined in [src/renderer-components/image.tsx:4](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/image.tsx#L4)*
+*Defined in [src/renderer-components/image.tsx:4](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/image.tsx#L4)*

@@ -18,7 +18,7 @@
 
 Ƭ **BlockquoteFC**: *NamedExoticComponent‹React.PropsWithChildren‹object››*
 
-*Defined in [src/renderer-components/blockquote.tsx:3](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/blockquote.tsx#L3)*
+*Defined in [src/renderer-components/blockquote.tsx:3](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/blockquote.tsx#L3)*
 
 ## Variables
 
@@ -31,4 +31,4 @@
   return <blockquote className="md__blockquote">{children}</blockquote>
 })
 
-*Defined in [src/renderer-components/blockquote.tsx:7](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/blockquote.tsx#L7)*
+*Defined in [src/renderer-components/blockquote.tsx:7](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/blockquote.tsx#L7)*

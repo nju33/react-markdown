@@ -33,7 +33,7 @@
 
 Ƭ **MarkdownProps**: *[MarkdownPropsWithContents](../interfaces/_src_markdown_.markdownpropswithcontents.md) | [MarkdownPropsWithPreProcessed](../interfaces/_src_markdown_.markdownpropswithpreprocessed.md)*
 
-*Defined in [src/markdown.tsx:30](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L30)*
+*Defined in [src/markdown.tsx:30](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L30)*
 
 ___
 
@@ -41,7 +41,7 @@ ___
 
 Ƭ **ProcessedResult**: *[[MarkdownNode](../interfaces/_src_interfaces_.markdownnode.md), [DefinitionNodes](_src_interfaces_.md#definitionnodes), [LinkReferenceNode](../interfaces/_src_interfaces_.linkreferencenode.md)[]]*
 
-*Defined in [src/markdown.tsx:20](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L20)*
+*Defined in [src/markdown.tsx:20](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L20)*
 
 ## Variables
 
@@ -49,7 +49,7 @@ ___
 
 • **Markdown**: *NamedExoticComponent‹[MarkdownProps](_src_markdown_.md#markdownprops)›* = React.memo(_Markdown)
 
-*Defined in [src/markdown.tsx:231](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L231)*
+*Defined in [src/markdown.tsx:231](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L231)*
 
 ## Functions
 
@@ -57,7 +57,7 @@ ___
 
 ▸ **_Markdown**(`props`: PropsWithChildren‹[MarkdownProps](_src_markdown_.md#markdownprops)›): *Element‹›*
 
-*Defined in [src/markdown.tsx:189](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L189)*
+*Defined in [src/markdown.tsx:189](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L189)*
 
 **Parameters:**
 
@@ -73,7 +73,7 @@ ___
 
 ▸ **collectDefinitions**(`node`: [NodeBase](../interfaces/_src_interfaces_.nodebase.md)): *[NodeBase](../interfaces/_src_interfaces_.nodebase.md)[]*
 
-*Defined in [src/markdown.tsx:34](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L34)*
+*Defined in [src/markdown.tsx:34](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L34)*
 
 **Parameters:**
 
@@ -89,7 +89,7 @@ ___
 
 ▸ **collectLinkReference**(`node`: [NodeBase](../interfaces/_src_interfaces_.nodebase.md)): *[NodeBase](../interfaces/_src_interfaces_.nodebase.md)[]*
 
-*Defined in [src/markdown.tsx:54](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L54)*
+*Defined in [src/markdown.tsx:54](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L54)*
 
 **Parameters:**
 
@@ -105,7 +105,7 @@ ___
 
 ▸ **isPropsWithContents**(`a`: any): *a is MarkdownPropsWithContents*
 
-*Defined in [src/markdown.tsx:185](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L185)*
+*Defined in [src/markdown.tsx:185](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L185)*
 
 **Parameters:**
 
@@ -121,7 +121,7 @@ ___
 
 ▸ **process**(`contents`: string, `options`: object): *Promise‹[ProcessedResult](_src_markdown_.md#processedresult)›*
 
-*Defined in [src/markdown.tsx:74](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L74)*
+*Defined in [src/markdown.tsx:74](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L74)*
 
 **Parameters:**
 
@@ -137,7 +137,7 @@ Name | Type |
 
 ▸ **process**(`contents`: string, `options`: object): *[ProcessedResult](_src_markdown_.md#processedresult)*
 
-*Defined in [src/markdown.tsx:78](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L78)*
+*Defined in [src/markdown.tsx:78](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L78)*
 
 **Parameters:**
 
@@ -157,7 +157,7 @@ ___
 
 ▸ **useMarkdown**(`contents`: string, `isServer`: boolean): *[[MarkdownNode](../interfaces/_src_interfaces_.markdownnode.md), [DefinitionNodes](_src_interfaces_.md#definitionnodes), [LinkReferenceNode](../interfaces/_src_interfaces_.linkreferencenode.md)[], [Components](../interfaces/_src_renderer_.components.md)]*
 
-*Defined in [src/markdown.tsx:120](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L120)*
+*Defined in [src/markdown.tsx:120](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L120)*
 
 **Parameters:**
 

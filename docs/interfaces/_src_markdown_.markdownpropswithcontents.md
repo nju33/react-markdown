@@ -19,7 +19,7 @@
 
 • **contents**: *string*
 
-*Defined in [src/markdown.tsx:16](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L16)*
+*Defined in [src/markdown.tsx:16](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L16)*
 
 A Markdown contents
 
@@ -29,4 +29,4 @@ ___
 
 • **isServer**? : *undefined | false | true*
 
-*Defined in [src/markdown.tsx:17](https://github.com/nju33/react-markdown/blob/3861cd2/src/markdown.tsx#L17)*
+*Defined in [src/markdown.tsx:17](https://github.com/nju33/react-markdown/blob/3889a1e/src/markdown.tsx#L17)*

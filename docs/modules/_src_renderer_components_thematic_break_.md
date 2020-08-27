@@ -18,7 +18,7 @@
 
 Ƭ **ThematicBreakFC**: *NamedExoticComponent‹object›*
 
-*Defined in [src/renderer-components/thematic-break.tsx:3](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/thematic-break.tsx#L3)*
+*Defined in [src/renderer-components/thematic-break.tsx:3](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/thematic-break.tsx#L3)*
 
 ## Variables
 
@@ -31,4 +31,4 @@
   return <hr className="md__thematic-break" />
 })
 
-*Defined in [src/renderer-components/thematic-break.tsx:5](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/thematic-break.tsx#L5)*
+*Defined in [src/renderer-components/thematic-break.tsx:5](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/thematic-break.tsx#L5)*

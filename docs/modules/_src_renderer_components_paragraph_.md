@@ -22,7 +22,7 @@
 
 Ƭ **ParagraphFC**: *NamedExoticComponent‹React.PropsWithChildren‹[ParagraphProps](../interfaces/_src_renderer_components_paragraph_.paragraphprops.md)››*
 
-*Defined in [src/renderer-components/paragraph.tsx:6](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/paragraph.tsx#L6)*
+*Defined in [src/renderer-components/paragraph.tsx:6](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/paragraph.tsx#L6)*
 
 ## Variables
 
@@ -35,4 +35,4 @@
   return <p className="md__paragraph">{children}</p>
 })
 
-*Defined in [src/renderer-components/paragraph.tsx:10](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/paragraph.tsx#L10)*
+*Defined in [src/renderer-components/paragraph.tsx:10](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/paragraph.tsx#L10)*

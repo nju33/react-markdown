@@ -22,7 +22,7 @@
 
 Ƭ **HeadingFC**: *NamedExoticComponent‹React.PropsWithChildren‹[HeadingProps](../interfaces/_src_renderer_components_heading_.headingprops.md)››*
 
-*Defined in [src/renderer-components/heading.tsx:7](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/heading.tsx#L7)*
+*Defined in [src/renderer-components/heading.tsx:7](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/heading.tsx#L7)*
 
 ## Variables
 
@@ -45,4 +45,4 @@
   throw new RangeError('The `depth` must be in the range of 1-6')
 })
 
-*Defined in [src/renderer-components/heading.tsx:11](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/heading.tsx#L11)*
+*Defined in [src/renderer-components/heading.tsx:11](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/heading.tsx#L11)*

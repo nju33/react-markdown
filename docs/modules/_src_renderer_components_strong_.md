@@ -18,7 +18,7 @@
 
 Ƭ **StrongFC**: *NamedExoticComponent‹React.PropsWithChildren‹object››*
 
-*Defined in [src/renderer-components/strong.tsx:3](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/strong.tsx#L3)*
+*Defined in [src/renderer-components/strong.tsx:3](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/strong.tsx#L3)*
 
 ## Variables
 
@@ -30,4 +30,4 @@
   return <strong className="md__strong">{children}</strong>
 })
 
-*Defined in [src/renderer-components/strong.tsx:5](https://github.com/nju33/react-markdown/blob/3861cd2/src/renderer-components/strong.tsx#L5)*
+*Defined in [src/renderer-components/strong.tsx:5](https://github.com/nju33/react-markdown/blob/3889a1e/src/renderer-components/strong.tsx#L5)*
