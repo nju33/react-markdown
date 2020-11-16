@@ -48,7 +48,7 @@
     "@testing-library/react": "10.4.9",
     "@testing-library/react-hooks": "3.4.2",
     "@testing-library/user-event": "12.2.2",
-    "@types/eslint": "7.2.4",
+    "@types/eslint": "7.2.5",
     "@types/faker": "4.1.12",
     "@types/jest": "26.0.15",
     "@types/prismjs": "1.16.2",
