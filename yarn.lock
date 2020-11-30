@@ -2815,6 +2815,13 @@
   dependencies:
     "@types/glob" "*"
 
+"@types/archiver@^5.1.0":
+  version "5.1.0"
+  resolved "https://registry.yarnpkg.com/@types/archiver/-/archiver-5.1.0.tgz#869f4ce4028e49cf9a0243cf914415f4cc3d1f3d"
+  integrity sha512-baFOhanb/hxmcOd1Uey2TfFg43kTSmM6py1Eo7Rjbv/ivcl7PXLhY0QgXGf50Hx/eskGCFqPfhs/7IZLb15C5g==
+  dependencies:
+    "@types/glob" "*"
+
 "@types/aria-query@^4.2.0":
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/@types/aria-query/-/aria-query-4.2.0.tgz#14264692a9d6e2fa4db3df5e56e94b5e25647ac0"
@@ -17646,12 +17653,12 @@ webdriverio@*:
     serialize-error "^7.0.0"
     webdriver "6.7.1"
 
-webdriverio@6.10.4:
-  version "6.10.4"
-  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.10.4.tgz#d22660b25c23f112aaa0dc242a91eea7174eb2a0"
-  integrity sha512-U57l0OuEnNd8naUxuQT1kmCQ8Bms/DKOTZjhOr5sHKs6sRtUl/Bn3p4YUEP/FF8Na3UCfQOh4KeKHZOSilQWFA==
+webdriverio@6.10.5:
+  version "6.10.5"
+  resolved "https://registry.yarnpkg.com/webdriverio/-/webdriverio-6.10.5.tgz#3f060b0b5149419e6bd75bd8efdd631f2668bf58"
+  integrity sha512-TLIKVOOM0Oszn2mLxZcMQk0vq1bOWpsZNXMxMtpBXKLvcOCLedftxotwh0o1LqRiq8ODiubJ/vNOLgCN/oLFJQ==
   dependencies:
-    "@types/archiver" "^3.1.1"
+    "@types/archiver" "^5.1.0"
     "@types/atob" "^2.1.2"
     "@types/fs-extra" "^9.0.2"
     "@types/lodash.clonedeep" "^4.5.6"
