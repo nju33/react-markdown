@@ -105,7 +105,7 @@
     "typedoc": "0.19.2",
     "typedoc-plugin-markdown": "2.4.2",
     "typescript": "3.9.7",
-    "webdriverio": "6.10.4"
+    "webdriverio": "6.10.5"
   },
   "peerDependencies": {
     "prismjs": "^1.0.0",
