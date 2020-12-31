@@ -86,7 +86,7 @@
     "lint-staged": "10.5.3",
     "microbundle": "0.13.0",
     "prettier": "2.2.1",
-    "prismjs": "1.22.0",
+    "prismjs": "1.23.0",
     "react": "16.14.0",
     "react-dom": "16.14.0",
     "react-helmet": "6.1.0",
