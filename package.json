@@ -104,7 +104,7 @@
     "tsconfig-paths-webpack-plugin": "3.5.1",
     "typedoc": "0.20.36",
     "typedoc-plugin-markdown": "2.4.2",
-    "typescript": "3.9.9",
+    "typescript": "3.9.10",
     "webdriverio": "6.12.1"
   },
   "peerDependencies": {
